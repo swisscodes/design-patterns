@@ -1,8 +1,10 @@
 class Document {
+  signature = null;
+
   constructor(title) {
     this.title = title;
-    this.signature = null;
   }
+
   sign(signature) {
     this.signature = signature;
   }
